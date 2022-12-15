@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Poppins&display=swap');
+
+*{
+    background-color: #F2EAE2;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+  }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 18px;
+}
+
+.content{
+    display: block;
+    flex-direction: column;
+    background-color: white;
+    padding: 32px;
+    border-radius: 0 14px 14px 0;
+    width: 302px;
+}
+
+.desktop{
+    height: 453px;
+    border-radius: 14px 0 0 14px;
+}
+
+.mobile{
+    display: none;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #6C7289;
+    background-color: white;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    color: #1C232B;
+    background-color: white;
+    margin-bottom: 24px;
+}
+
+.desc{
+    font-family: 'Montserrat', sans-serif;
+    color: #6C7289;
+    font-size: 14px;
+    background-color: white;
+    line-height: 23px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+}
+
+.full-prices{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.price{
+    display: inline-block;
+    font-family: 'Fraunces', sans-serif;
+    color: #3D8168;
+    background-color: white;
+    font-size: 32px;
+}
+
+.disc{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: inherit;
+    color: #6C7289;
+    background-color: white;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 19px;
+}
+
+.icon{ 
+    background-color: #3D8167;
+}
+
+.button{
+    background-color: #3D8167;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 48px;
+
+}
+
+.btn{
+    display: flex;
+    background-color: #3D8167;
+    gap: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 18px;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: initial;
+        height: 237px;
+        border-radius: 14px 14px 0 0;
+    }
+
+    .content{
+        display: block;
+        flex-direction: column;
+        background-color: white;
+        padding: 32px;
+        border-radius: 14px;
+        width: 344px;
+    }
+}
