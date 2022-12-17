@@ -1,6 +1,8 @@
-# QR code challenge
-This is a solution to the [QR code component challenge on Frontend Mentor.](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+# Product Card
+This is a solution to the [product preview card component.](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
-## Content
+## Links
 
-1. [Screenshots](https://github.com/pedrocsampaio/QRcodechallenge/tree/main/images)
+[Site Product Card](https://pedrocsampaio.github.io/ProductCard/)
+
+[Printscreens](https://github.com/pedrocsampaio/ProductCard/tree/main/printscreen)
